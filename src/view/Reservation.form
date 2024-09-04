@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.Reservation">
+  <grid id="27dc6" binding="panel23" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="714" height="726"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e9797" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Reservation "/>
+        </properties>
+      </component>
+      <component id="932a3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pension Type:"/>
+        </properties>
+      </component>
+      <component id="33215" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Season:"/>
+        </properties>
+      </component>
+      <component id="aa9bc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Facilities:"/>
+        </properties>
+      </component>
+      <component id="3982d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Room:"/>
+        </properties>
+      </component>
+      <component id="82d4b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Hotel:"/>
+        </properties>
+      </component>
+      <component id="fc394" class="javax.swing.JButton" binding="createB">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=" Create reservation"/>
+        </properties>
+      </component>
+      <component id="4ea42" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sum :"/>
+        </properties>
+      </component>
+      <component id="26095" class="javax.swing.JTextField" binding="sumT">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fad60" class="javax.swing.JComboBox" binding="hotelT">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fe6c4" class="javax.swing.JComboBox" binding="roomT">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="afdfa"/>
+            <item value="sdaf"/>
+            <item value="asdfa"/>
+          </model>
+        </properties>
+      </component>
+      <component id="dfe13" class="javax.swing.JComboBox" binding="pensionT">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+      <component id="ea59c" class="javax.swing.JComboBox" binding="seasonT">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+      <scrollpane id="25f63">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8658a" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="35a57" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+          </model>
+        </properties>
+      </component>
+      <component id="8a2cf" class="javax.swing.JButton" binding="fiyatıGösterButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fiyatı Göster"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
